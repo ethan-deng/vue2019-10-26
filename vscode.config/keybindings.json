@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+enter",
+    "command": "python.datascience.runcell"
+  },
+  {
+    "key": "alt+enter",
+    "command": "python.datascience.runcurrentcell"
+  }
+]

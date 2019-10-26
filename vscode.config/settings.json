@@ -1,0 +1,63 @@
+{
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorCustomizations": {
+    // "editor.selectionBackground": "#E1BEE7",
+    // "editor.inactiveSelectionBackground": "#ba7373bd",
+    "editor.selectionHighlightBackground": "#577ddfbd",
+    "editor.findMatchBackground": "#ba7373bd",
+    "editor.wordHighlightBackground": "#ba7373bd"
+    // "editor.wordHighlightStrongBackground": "#0052cc"
+  },
+  "files.autoSave": "onFocusChange",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  // "csharpfixformat.style.braces.onSameLine": false,
+  // "csharp.format.enable": true,
+  "highlight-matching-tag.enabled": true,
+  "terminal.integrated.rendererType": "dom",
+  "window.zoomLevel": 1,
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  // "prettier.eslintIntegration": true,
+  "breadcrumbs.enabled": true,
+  "atomKeymap.promptV3Features": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.integrated.scrollback": 10000,
+  // "python.autoComplete.extraPaths": [
+  //   "c:\\users\\yangxin\\anaconda3\\lib\\site-packages"
+  // ],
+  "python.jediEnabled": false,
+  "python.formatting.provider": "black",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.gitignore": true,
+    "**/.ipynb_checkpoints": true,
+    "**/.vscode": true
+  },
+  "[python]": {
+    "editor.formatOnPaste": false
+  }
+}
