@@ -39,7 +39,7 @@
   "window.zoomLevel": 1,
   "editor.fontSize": 16,
   "terminal.integrated.fontSize": 16,
-  // "prettier.eslintIntegration": true,
+  "prettier.eslintIntegration": true,
   "breadcrumbs.enabled": true,
   "atomKeymap.promptV3Features": true,
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
